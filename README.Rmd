@@ -1,0 +1,42 @@
+---
+title: "drawing_covid"
+author: "Mohammad Hamdan"
+date: "1/28/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(drawingcovid)
+```
+
+This incredible new function helps us to visualize the horrors of coronavirus (in an interpretative way, of course). simply enter any number: your phone number, BSN, birthday, the batch number from your vaccine and the algorithm will generate a nasty, slimy picture of what coronavirus may or may not look like! (not sure because i haven't actually googled it.
+
+You need to load the following libraries for it to work:
+```{r libraries, message = FALSE}
+library(tidyverse)
+library(ambient)
+library(scico)
+library(here)
+```
+
+```{r random number 1}
+make_art(27)
+```
+
+```{r date}
+make_art(24012022) 
+```
+
+```{r backwards date}
+make_art(22020124)
+```
+
+```{r another random number}
+make_art(24348023) 
+```
+
+\newpage
+If you can't think of a number then we got you covered:
+```{r no number}
+make_art() 
+```
