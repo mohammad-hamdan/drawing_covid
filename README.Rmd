@@ -16,11 +16,12 @@ library(here)
 This incredible new function helps us to visualize the horrors of coronavirus (in an interpretative way, of course). simply enter any number: your phone number, BSN, birthday, the batch number from your vaccine and the algorithm will generate a nasty, slimy picture of what coronavirus may or may not look like! (not sure because i haven't actually googled it.
 
 You need to install the following packages for it to work (if you haven't already):
-```{r libraries, message = FALSE}
-install.package("tidyverse")
-install.package("ambient")
-install.package("scico")
-install.package("here")
+
+```{r libraries, eval = FALSE}
+install.packages("tidyverse")
+install.packages("ambient")
+install.packages("scico")
+install.packages("here")
 ```
 
 ```{r random number 1}
